@@ -1,0 +1,6 @@
+{
+  "name": "Globe State and Postal Inspector",
+  "description": "An interactive 3D orthographic globe that lets you click any country to inspect its states, regions, and postal/PIN code structures.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
