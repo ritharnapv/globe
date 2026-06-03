@@ -1,0 +1,758 @@
+{
+  "countries": {
+    "india": {
+      "countryName": "India",
+      "capital": "New Delhi",
+      "population": "1.43 Billion",
+      "currency": "Indian Rupee (INR, ₹)",
+      "language": "Hindi, English",
+      "phoneCode": "+91",
+      "flagEmoji": "🇮🇳",
+      "postalCodeLabel": "PIN Code",
+      "postalCodeFormat": "6-digit numeric (e.g. 560001)",
+      "postalCodeRegexExplanation": "A 6-digit numeric code. The first digit represents the region, the second the sub-region, the third the sorting district, and the last three indicate the specific post office.",
+      "states": [
+        {
+          "name": "Karnataka",
+          "code": "KA",
+          "capitalOrHq": "Bengaluru",
+          "typicalPincodes": ["560001", "560038", "560103"],
+          "description": "Known as the tech capital of India, Karnataka features a mix of historical monuments, palaces, and a booming software industry."
+        },
+        {
+          "name": "Maharashtra",
+          "code": "MH",
+          "capitalOrHq": "Mumbai",
+          "typicalPincodes": ["400001", "400050", "411001"],
+          "description": "Home to Mumbai, the financial capital of India, and famous ancient rock-cut temples like Ajanta and Ellora."
+        },
+        {
+          "name": "Delhi",
+          "code": "DL",
+          "capitalOrHq": "New Delhi",
+          "typicalPincodes": ["110001", "110011", "110021"],
+          "description": "The national capital territory of India, containing historic landmarks like the Red Fort, Qutub Minar, and India Gate."
+        },
+        {
+          "name": "Tamil Nadu",
+          "code": "TN",
+          "capitalOrHq": "Chennai",
+          "typicalPincodes": ["600001", "600018", "600028"],
+          "description": "Famous for its Dravidian-style Hindu temples, classical music, and rich history dating back to ancient Tamil dynasties."
+        },
+        {
+          "name": "West Bengal",
+          "code": "WB",
+          "capitalOrHq": "Kolkata",
+          "typicalPincodes": ["700001", "700020", "700091"],
+          "description": "A cultural hub in eastern India, famed for its literature, architectural relics of the British Raj, and the Sundarbans mangrove forest."
+        }
+      ],
+      "generalPostalTrivia": "The Postal Index Number (PIN) system was introduced on August 15, 1972, to simplify mail routing and eliminate confusion caused by similar place names and diverse languages."
+    },
+    "united states": {
+      "countryName": "United States",
+      "capital": "Washington, D.C.",
+      "population": "340 Million",
+      "currency": "US Dollar (USD, $)",
+      "language": "English",
+      "phoneCode": "+1",
+      "flagEmoji": "🇺🇸",
+      "postalCodeLabel": "ZIP Code",
+      "postalCodeFormat": "5-digit numeric (e.g. 90210)",
+      "postalCodeRegexExplanation": "A 5-digit number indicating the national area, sectional center facility, and local post office. Often appended with 4 digits (ZIP+4) for more precise sorting.",
+      "states": [
+        {
+          "name": "California",
+          "code": "CA",
+          "capitalOrHq": "Sacramento",
+          "typicalPincodes": ["90001", "90210", "94102"],
+          "description": "America's most populous state, home to Hollywood, Silicon Valley, wine country, and diverse national parks like Yosemite."
+        },
+        {
+          "name": "New York",
+          "code": "NY",
+          "capitalOrHq": "Albany",
+          "typicalPincodes": ["10001", "10012", "12201"],
+          "description": "Renowned for New York City, Wall Street, Broadway, and upstate treasures like Niagara Falls and the Adirondacks."
+        },
+        {
+          "name": "Texas",
+          "code": "TX",
+          "capitalOrHq": "Austin",
+          "typicalPincodes": ["73301", "75001", "77001"],
+          "description": "The Lone Star State, characterized by its vast deserts, major energy companies, historic sites like the Alamo, and NASA space center."
+        },
+        {
+          "name": "Florida",
+          "code": "FL",
+          "capitalOrHq": "Tallahassee",
+          "typicalPincodes": ["32301", "33101", "32801"],
+          "description": "The Sunshine State, featuring hundreds of miles of beaches, major theme parks in Orlando, and the unique Everglades ecosystem."
+        },
+        {
+          "name": "Washington",
+          "code": "WA",
+          "capitalOrHq": "Olympia",
+          "typicalPincodes": ["98501", "98101", "99201"],
+          "description": "Located in the Pacific Northwest, Washington is famous for its evergreen forests, Mount Rainier, and tech giants based in Seattle."
+        }
+      ],
+      "generalPostalTrivia": "ZIP stands for Zone Improvement Plan. It was introduced in 1963 by the United States Post Office Department to automate mail sorting as mail volume grew rapidly."
+    },
+    "canada": {
+      "countryName": "Canada",
+      "capital": "Ottawa",
+      "population": "40 Million",
+      "currency": "Canadian Dollar (CAD, $)",
+      "language": "English, French",
+      "phoneCode": "+1",
+      "flagEmoji": "🇨🇦",
+      "postalCodeLabel": "Postal Code",
+      "postalCodeFormat": "Alphanumeric ANA NAN (e.g. K1A 0B1)",
+      "postalCodeRegexExplanation": "A six-character alphanumeric code where letters and numbers alternate. The first character represents a specific postal province or district.",
+      "states": [
+        {
+          "name": "Ontario",
+          "code": "ON",
+          "capitalOrHq": "Toronto",
+          "typicalPincodes": ["M5V 1J2", "K1A 0B1", "L0B 1A0"],
+          "description": "Canada's economic engine, featuring Toronto's CN Tower, the federal capital Ottawa, and the spectacular Niagara Falls."
+        },
+        {
+          "name": "Quebec",
+          "code": "QC",
+          "capitalOrHq": "Quebec City",
+          "typicalPincodes": ["H3B 1A1", "G1R 4Y8", "J8X 1A1"],
+          "description": "A predominantly French-speaking province, famous for its historic Old Quebec City, maple syrup production, and Montreal's vibrant culture."
+        },
+        {
+          "name": "British Columbia",
+          "code": "BC",
+          "capitalOrHq": "Victoria",
+          "typicalPincodes": ["V6B 1A1", "V8W 1A1", "V9A 1A1"],
+          "description": "Canada's westernmost province, known for its majestic Pacific coastline, Whistler ski resorts, and the metropolitan city of Vancouver."
+        },
+        {
+          "name": "Alberta",
+          "code": "AB",
+          "capitalOrHq": "Edmonton",
+          "typicalPincodes": ["T2P 1J1", "T5J 2G2", "T6G 2R3"],
+          "description": "Famous for the Rocky Mountains, Banff and Jasper National Parks, and vast oil and gas reserves."
+        }
+      ],
+      "generalPostalTrivia": "Canada Post uses a specialized sorting code for Santa Claus: 'H0H 0H0', North Pole, Canada. Every year, millions of children write letters to this postal code and receive replies."
+    },
+    "australia": {
+      "countryName": "Australia",
+      "capital": "Canberra",
+      "population": "26 Million",
+      "currency": "Australian Dollar (AUD, $)",
+      "language": "English",
+      "phoneCode": "+61",
+      "flagEmoji": "🇦🇺",
+      "postalCodeLabel": "Postcode",
+      "postalCodeFormat": "4-digit numeric (e.g. 2000)",
+      "postalCodeRegexExplanation": "A 4-digit numeric code. The first digit represents the state or territory, followed by sub-divisions.",
+      "states": [
+        {
+          "name": "New South Wales",
+          "code": "NSW",
+          "capitalOrHq": "Sydney",
+          "typicalPincodes": ["2000", "2010", "2300"],
+          "description": "Features the landmark Opera House and Harbour Bridge in Sydney, beautiful beaches, and the Blue Mountains."
+        },
+        {
+          "name": "Victoria",
+          "code": "VIC",
+          "capitalOrHq": "Melbourne",
+          "typicalPincodes": ["3000", "3010", "3121"],
+          "description": "A cultural and sporting capital centered in Melbourne, known for its Victorian architecture, arts scenes, and coffee culture."
+        },
+        {
+          "name": "Queensland",
+          "code": "QLD",
+          "capitalOrHq": "Brisbane",
+          "typicalPincodes": ["4000", "4217", "4870"],
+          "description": "Home to the tropical Great Barrier Reef, pristine sandy beaches of the Gold Coast, and lush rainforests."
+        },
+        {
+          "name": "Western Australia",
+          "code": "WA",
+          "capitalOrHq": "Perth",
+          "typicalPincodes": ["6000", "6160", "6430"],
+          "description": "Australia's largest state, renowned for its remote outback, Margaret River wine region, and the sunny capital city Perth."
+        }
+      ],
+      "generalPostalTrivia": "Australia Post was founded shortly after federation in 1901. It operates one of the world's most sparsely populated delivery networks, stretching across the entire continent."
+    },
+    "united kingdom": {
+      "countryName": "United Kingdom",
+      "capital": "London",
+      "population": "67 Million",
+      "currency": "British Pound (GBP, £)",
+      "language": "English",
+      "phoneCode": "+44",
+      "flagEmoji": "🇬🇧",
+      "postalCodeLabel": "Postcode",
+      "postalCodeFormat": "Alphanumeric (e.g. SW1A 1AA)",
+      "postalCodeRegexExplanation": "An alphanumeric code between 5 and 7 characters split by a space. The outward code identifies the district, while the inward code identifies the street or unit.",
+      "states": [
+        {
+          "name": "England",
+          "code": "ENG",
+          "capitalOrHq": "London",
+          "typicalPincodes": ["EC1A 1BB", "SW1A 1AA", "M1 1AA"],
+          "description": "Features historic universities like Oxford and Cambridge, industrial heritage in Manchester, and the capital metropolis London."
+        },
+        {
+          "name": "Scotland",
+          "code": "SCO",
+          "capitalOrHq": "Edinburgh",
+          "typicalPincodes": ["EH1 1YT", "G1 1QX", "AB10 1AJ"],
+          "description": "Famous for its Highlands, historic castles, Edinburgh festival, deep lochs, and cultural heritage."
+        },
+        {
+          "name": "Wales",
+          "code": "WAL",
+          "capitalOrHq": "Cardiff",
+          "typicalPincodes": ["CF10 1EP", "SA1 1DP", "LL57 1DG"],
+          "description": "A mountainous country known for its Celtic culture, rugged coastlines, and a vast density of historic castles per square mile."
+        },
+        {
+          "name": "Northern Ireland",
+          "code": "NIR",
+          "capitalOrHq": "Belfast",
+          "typicalPincodes": ["BT1 1AA", "BT7 1HL", "BT48 6HP"],
+          "description": "Known for the dramatic basalt columns of the Giant's Causeway, historic Belfast shipyards, and beautiful green valleys."
+        }
+      ],
+      "generalPostalTrivia": "The modern postal system was revolutionized in the UK in 1840 with the introduction of the Penny Black, the world's first adhesive postage stamp, making postage cheap and uniform."
+    },
+    "germany": {
+      "countryName": "Germany",
+      "capital": "Berlin",
+      "population": "84 Million",
+      "currency": "Euro (EUR, €)",
+      "language": "German",
+      "phoneCode": "+49",
+      "flagEmoji": "🇩🇪",
+      "postalCodeLabel": "Postleitzahl",
+      "postalCodeFormat": "5-digit numeric (e.g. 10115)",
+      "postalCodeRegexExplanation": "A 5-digit numeric code introduced in 1993 after reunification. The first digit represents the zone, and the second digit denotes the region.",
+      "states": [
+        {
+          "name": "Bavaria",
+          "code": "BY",
+          "capitalOrHq": "Munich",
+          "typicalPincodes": ["80331", "90402", "81675"],
+          "description": "Germany's southern state, famous for Neuschwanstein Castle, Munich's Oktoberfest, and the Alpine mountain range."
+        },
+        {
+          "name": "Berlin",
+          "code": "BE",
+          "capitalOrHq": "Berlin",
+          "typicalPincodes": ["10115", "10785", "14193"],
+          "description": "A city-state and the capital of Germany, known for its history, underground music, art, and landmark Brandenburg Gate."
+        },
+        {
+          "name": "Hamburg",
+          "code": "HH",
+          "capitalOrHq": "Hamburg",
+          "typicalPincodes": ["20095", "22303", "21107"],
+          "description": "A major port city-state in northern Germany, connected to the North Sea, famous for its canals, port district, and Elbphilharmonie concert hall."
+        },
+        {
+          "name": "North Rhine-Westphalia",
+          "code": "NW",
+          "capitalOrHq": "Düsseldorf",
+          "typicalPincodes": ["40213", "50667", "44135"],
+          "description": "Germany's most populous state, containing the industrial Ruhr area and historic cities like Cologne and Düsseldorf."
+        }
+      ],
+      "generalPostalTrivia": "Germany was the first country to introduce a postal code system (Postleitzahl) in 1941, during World War II, which was later completely restructured in 1961 (West) and 1965 (East)."
+    },
+    "japan": {
+      "countryName": "Japan",
+      "capital": "Tokyo",
+      "population": "125 Million",
+      "currency": "Japanese Yen (JPY, ¥)",
+      "language": "Japanese",
+      "phoneCode": "+81",
+      "flagEmoji": "🇯🇵",
+      "postalCodeLabel": "Postal Code",
+      "postalCodeFormat": "7-digit numeric NNN-NNNN (e.g. 100-0001)",
+      "postalCodeRegexExplanation": "A 7-digit numeric code formatted as 3 digits followed by a hyphen and then 4 digits. The first three digits indicate the regional route, and the last four represent the specific delivery zone.",
+      "states": [
+        {
+          "name": "Tokyo",
+          "code": "TYO",
+          "capitalOrHq": "Shinjuku",
+          "typicalPincodes": ["100-0001", "160-0022", "150-0001"],
+          "description": "The ultra-modern metropolis and capital of Japan, combining neon skyscrapers, historic shrines, and busy districts like Shibuya."
+        },
+        {
+          "name": "Osaka",
+          "code": "OSA",
+          "capitalOrHq": "Osaka City",
+          "typicalPincodes": ["530-0001", "542-0071", "556-0001"],
+          "description": "A large port city and commercial center, famous for its street food, nightlife, and historic Osaka Castle."
+        },
+        {
+          "name": "Kyoto",
+          "code": "KYO",
+          "capitalOrHq": "Kyoto City",
+          "typicalPincodes": ["600-0001", "604-0001", "616-8384"],
+          "description": "Japan's ancient imperial capital, famous for thousands of classical Buddhist temples, gardens, imperial palaces, and geisha traditions."
+        },
+        {
+          "name": "Hokkaido",
+          "code": "HKD",
+          "capitalOrHq": "Sapporo",
+          "typicalPincodes": ["060-0001", "040-0001", "070-0001"],
+          "description": "Japan's northernmost island, known for its volcanoes, hot springs (onsen), ski resorts, and the annual Sapporo Snow Festival."
+        }
+      ],
+      "generalPostalTrivia": "Japan Post was privatized in 2007. It runs one of the world's most integrated networks, combining postal delivery, savings accounts, and life insurance services."
+    },
+    "brazil": {
+      "countryName": "Brazil",
+      "capital": "Brasília",
+      "population": "215 Million",
+      "currency": "Brazilian Real (BRL, R$)",
+      "language": "Portuguese",
+      "phoneCode": "+55",
+      "flagEmoji": "🇧🇷",
+      "postalCodeLabel": "CEP",
+      "postalCodeFormat": "8-digit numeric NNNNN-NNN (e.g. 01000-000)",
+      "postalCodeRegexExplanation": "A 5-digit number followed by a hyphen and 3 digits. The digits represent regions, sub-regions, sectors, sub-sectors, and delivery divisions.",
+      "states": [
+        {
+          "name": "São Paulo",
+          "code": "SP",
+          "capitalOrHq": "São Paulo City",
+          "typicalPincodes": ["01000-000", "04578-000", "11000-000"],
+          "description": "Brazil's economic powerhouse state, centered around the massive metropolis of São Paulo, famous for coffee production and cultural diversity."
+        },
+        {
+          "name": "Rio de Janeiro",
+          "code": "RJ",
+          "capitalOrHq": "Rio de Janeiro",
+          "typicalPincodes": ["20000-000", "22000-000", "24000-000"],
+          "description": "Famous worldwide for Copacabana and Ipanema beaches, the Christ the Redeemer statue, and its energetic Carnival festival."
+        },
+        {
+          "name": "Minas Gerais",
+          "code": "MG",
+          "capitalOrHq": "Belo Horizonte",
+          "typicalPincodes": ["30000-000", "36000-000", "38400-000"],
+          "description": "A historic state known for colonial-era gold-mining towns, dramatic hills, and rich cuisine including traditional cheese (pão de queijo)."
+        }
+      ],
+      "generalPostalTrivia": "The CEP (Código de Endereçamento Postal) system was created in 1971 by Correios (the state-owned postal service of Brazil) to handle the country's rapid urban growth."
+    },
+    "france": {
+      "countryName": "France",
+      "capital": "Paris",
+      "population": "68 Million",
+      "currency": "Euro (EUR, €)",
+      "language": "French",
+      "phoneCode": "+33",
+      "flagEmoji": "🇫🇷",
+      "postalCodeLabel": "Code Postal",
+      "postalCodeFormat": "5-digit numeric (e.g. 75001)",
+      "postalCodeRegexExplanation": "A 5-digit code. The first two digits represent the department number, and the last three identify the local post office or distribution center.",
+      "states": [
+        {
+          "name": "Île-de-France",
+          "code": "IDF",
+          "capitalOrHq": "Paris",
+          "typicalPincodes": ["75001", "75008", "92100"],
+          "description": "The historic region surrounding Paris, featuring the Eiffel Tower, the Louvre Museum, and the Palace of Versailles."
+        },
+        {
+          "name": "Provence-Alpes-Côte d'Azur",
+          "code": "PACA",
+          "capitalOrHq": "Marseille",
+          "typicalPincodes": ["13001", "06000", "84000"],
+          "description": "Renowned for its sunny French Riviera, lavender fields of Provence, and historic cities like Nice, Cannes, and Avignon."
+        },
+        {
+          "name": "Auvergne-Rhône-Alpes",
+          "code": "ARA",
+          "capitalOrHq": "Lyon",
+          "typicalPincodes": ["69001", "38000", "74000"],
+          "description": "Home to the French Alps, including Mont Blanc, beautiful lakes, and the culinary capital city of Lyon."
+        }
+      ],
+      "generalPostalTrivia": "French postal codes use a system called Cedex (Courrier d'Entreprise à Distribution Exceptionnelle) for large volume business recipients, sorting their mail directly to their own dedicated postal codes."
+    },
+    "south africa": {
+      "countryName": "South Africa",
+      "capital": "Pretoria, Cape Town, Bloemfontein",
+      "population": "61 Million",
+      "currency": "South African Rand (ZAR, R)",
+      "language": "11 Official Languages (including Zulu, Xhosa, Afrikaans, English)",
+      "phoneCode": "+27",
+      "flagEmoji": "🇿🇦",
+      "postalCodeLabel": "Postal Code",
+      "postalCodeFormat": "4-digit numeric (e.g. 0001)",
+      "postalCodeRegexExplanation": "A 4-digit code. The first two digits indicate the routing district and province, and the last two represent the specific post office or box.",
+      "states": [
+        {
+          "name": "Gauteng",
+          "code": "GP",
+          "capitalOrHq": "Johannesburg",
+          "typicalPincodes": ["2001", "0001", "1609"],
+          "description": "The smallest but most populous province, featuring the economic powerhouse Johannesburg and the administrative capital Pretoria."
+        },
+        {
+          "name": "Western Cape",
+          "code": "WC",
+          "capitalOrHq": "Cape Town",
+          "typicalPincodes": ["8001", "7700", "7600"],
+          "description": "Famous for the flat-topped Table Mountain, spectacular coastal drives, wine estates, and the legislative capital Cape Town."
+        },
+        {
+          "name": "KwaZulu-Natal",
+          "code": "KZN",
+          "capitalOrHq": "Pietermaritzburg",
+          "typicalPincodes": ["4001", "3201", "4301"],
+          "description": "Known for its warm beaches, Drakensberg mountains, historic battlefields, and Zulu cultural heritage."
+        }
+      ],
+      "generalPostalTrivia": "South African postal codes distinguish between street delivery addresses (odd codes or low ranges) and post office box delivery addresses (even codes or higher ranges) to optimize sorting."
+    },
+    "russia": {
+      "countryName": "Russia",
+      "capital": "Moscow",
+      "population": "144 Million",
+      "currency": "Russian Ruble (RUB, ₽)",
+      "language": "Russian",
+      "phoneCode": "+7",
+      "flagEmoji": "🇷🇺",
+      "postalCodeLabel": "Index",
+      "postalCodeFormat": "6-digit numeric (e.g. 101000)",
+      "postalCodeRegexExplanation": "A 6-digit numeric code. The first three digits indicate the regional postal hub, and the last three indicate the local post office.",
+      "states": [
+        {
+          "name": "Moscow",
+          "code": "MOW",
+          "capitalOrHq": "Moscow City",
+          "typicalPincodes": ["101000", "119019", "125009"],
+          "description": "Russia's capital city-state, featuring the Kremlin, Red Square, Saint Basil's Cathedral, and a massive subway system."
+        },
+        {
+          "name": "Saint Petersburg",
+          "code": "SPE",
+          "capitalOrHq": "Saint Petersburg",
+          "typicalPincodes": ["190000", "191186", "197022"],
+          "description": "The cultural capital of Russia, famous for its canals, Hermitage Museum, and historic architecture built by Peter the Great."
+        },
+        {
+          "name": "Novosibirsk Oblast",
+          "code": "NVS",
+          "capitalOrHq": "Novosibirsk",
+          "typicalPincodes": ["630000", "630090", "630120"],
+          "description": "Located in Siberia, hosting Novosibirsk, the third-most populous city in Russia, and the science town Akademgorodok."
+        }
+      ],
+      "generalPostalTrivia": "Russian postal codes are known as the Russian Postal Index. They were standard six-digit identifiers designed to span across the massive 11 time zones of the country."
+    },
+    "china": {
+      "countryName": "China",
+      "capital": "Beijing",
+      "population": "1.41 Billion",
+      "currency": "Renminbi (CNY, ¥)",
+      "language": "Standard Mandarin",
+      "phoneCode": "+86",
+      "flagEmoji": "🇨🇳",
+      "postalCodeLabel": "Postal Code",
+      "postalCodeFormat": "6-digit numeric (e.g. 100000)",
+      "postalCodeRegexExplanation": "A 6-digit numeric code. The first two digits represent the province/municipality, the third indicates the postal zone, the fourth is the county/city, and the last two denote the specific post office.",
+      "states": [
+        {
+          "name": "Guangdong",
+          "code": "GD",
+          "capitalOrHq": "Guangzhou",
+          "typicalPincodes": ["510000", "518000", "519000"],
+          "description": "A southern coastal province and global manufacturing hub, containing the major economic cities of Guangzhou and Shenzhen."
+        },
+        {
+          "name": "Beijing",
+          "code": "BJ",
+          "capitalOrHq": "Beijing",
+          "typicalPincodes": ["100000", "100006", "100080"],
+          "description": "China's capital, containing historic sites like the Forbidden City, Tiananmen Square, and nearby sections of the Great Wall."
+        },
+        {
+          "name": "Shanghai",
+          "code": "SH",
+          "capitalOrHq": "Shanghai",
+          "typicalPincodes": ["200000", "200002", "200120"],
+          "description": "A global financial center and major port city, famous for the futuristic skyline of Lujiazui and colonial-era Bund promenade."
+        },
+        {
+          "name": "Sichuan",
+          "code": "SC",
+          "capitalOrHq": "Chengdu",
+          "typicalPincodes": ["610000", "617000", "620000"],
+          "description": "Located in southwest China, famous for its spicy cuisine, giant panda reserves, and dramatic mountain landscapes."
+        }
+      ],
+      "generalPostalTrivia": "China Post operates one of the largest postal systems in the world. It was established in 1949 and also serves rural remote villages through specialized postal service routes."
+    },
+    "italy": {
+      "countryName": "Italy",
+      "capital": "Rome",
+      "population": "59 Million",
+      "currency": "Euro (EUR, €)",
+      "language": "Italian",
+      "phoneCode": "+39",
+      "flagEmoji": "🇮🇹",
+      "postalCodeLabel": "CAP",
+      "postalCodeFormat": "5-digit numeric (e.g. 00100)",
+      "postalCodeRegexExplanation": "A 5-digit code. The first two digits indicate the province, and the last three indicate the specific town or city district.",
+      "states": [
+        {
+          "name": "Lazio",
+          "code": "LAZ",
+          "capitalOrHq": "Rome",
+          "typicalPincodes": ["00100", "00187", "00199"],
+          "description": "Home to Italy's capital city Rome and the Vatican City, with ancient Roman ruins like the Colosseum."
+        },
+        {
+          "name": "Lombardy",
+          "code": "LOM",
+          "capitalOrHq": "Milan",
+          "typicalPincodes": ["20100", "20121", "25100"],
+          "description": "Italy's economic center in the north, home to the global fashion capital Milan and scenic Alpine lakes like Lake Como."
+        },
+        {
+          "name": "Tuscany",
+          "code": "TOS",
+          "capitalOrHq": "Florence",
+          "typicalPincodes": ["50100", "53100", "56100"],
+          "description": "Famous for its rolling vineyards, Chianti wines, art history in Florence, and the Leaning Tower of Pisa."
+        }
+      ],
+      "generalPostalTrivia": "CAP stands for Codice di Avviamento Postale. It was introduced in 1967 to speed up mail deliveries across Italy's complex regional postal systems."
+    },
+    "spain": {
+      "countryName": "Spain",
+      "capital": "Madrid",
+      "population": "48 Million",
+      "currency": "Euro (EUR, €)",
+      "language": "Spanish, Catalan, Galician, Basque",
+      "phoneCode": "+34",
+      "flagEmoji": "🇪🇸",
+      "postalCodeLabel": "Código Postal",
+      "postalCodeFormat": "5-digit numeric (e.g. 28001)",
+      "postalCodeRegexExplanation": "A 5-digit number where the first two digits represent the province code (matching the alphabetical order of Spanish provinces), and the last three denote the city or postal zone.",
+      "states": [
+        {
+          "name": "Madrid",
+          "code": "MAD",
+          "capitalOrHq": "Madrid",
+          "typicalPincodes": ["28001", "28012", "28080"],
+          "description": "The central region hosting Spain's capital, containing the Royal Palace, Prado Museum, and lively town plazas."
+        },
+        {
+          "name": "Catalonia",
+          "code": "CAT",
+          "capitalOrHq": "Barcelona",
+          "typicalPincodes": ["08001", "08007", "17001"],
+          "description": "Located in northeast Spain, famous for Barcelona's Sagrada Família, Gaudí architecture, and Costa Brava beaches."
+        },
+        {
+          "name": "Andalusia",
+          "code": "AND",
+          "capitalOrHq": "Seville",
+          "typicalPincodes": ["41001", "18001", "29001"],
+          "description": "Southern Spain, known for Moorish architecture like the Alhambra in Granada, Seville Cathedral, and flamenco music."
+        }
+      ],
+      "generalPostalTrivia": "Spain's Correos system utilizes a fully automated sorting infrastructure. The first two digits of the postal code match the official province codes (01-52)."
+    },
+    "mexico": {
+      "countryName": "Mexico",
+      "capital": "Mexico City",
+      "population": "128 Million",
+      "currency": "Mexican Peso (MXN, $)",
+      "language": "Spanish",
+      "phoneCode": "+52",
+      "flagEmoji": "🇲🇽",
+      "postalCodeLabel": "Código Postal",
+      "postalCodeFormat": "5-digit numeric (e.g. 01000)",
+      "postalCodeRegexExplanation": "A 5-digit code. The first two digits indicate the state or administrative zone, and the remaining digits represent the municipality and neighborhood.",
+      "states": [
+        {
+          "name": "Ciudad de México",
+          "code": "CDMX",
+          "capitalOrHq": "Mexico City",
+          "typicalPincodes": ["01000", "06000", "11000"],
+          "description": "The massive capital city-state, containing historic ruins of Tenochtitlan, colonial cathedrals, and rich culinary scenes."
+        },
+        {
+          "name": "Jalisco",
+          "code": "JAL",
+          "capitalOrHq": "Guadalajara",
+          "typicalPincodes": ["44100", "45000", "46400"],
+          "description": "Known as the birthplace of tequila, mariachi music, and rich cultural traditions, situated in western Mexico."
+        },
+        {
+          "name": "Nuevo León",
+          "code": "NL",
+          "capitalOrHq": "Monterrey",
+          "typicalPincodes": ["64000", "66220", "67100"],
+          "description": "A major northern industrial state, home to the business and technological hub city of Monterrey, surrounded by the Sierra Madre mountains."
+        }
+      ],
+      "generalPostalTrivia": "Mexico's postal codes are managed by Correos de México. The codes are allocated counter-clockwise geographically, starting from central Mexico City outwards."
+    }
+  },
+  "samplePostalCodes": {
+    "india": {
+      "560001": {
+        "isValid": true,
+        "postalCode": "560001",
+        "country": "India",
+        "state": "Karnataka",
+        "city": "Bengaluru",
+        "district": "Bengaluru G.P.O. (General Post Office)",
+        "latitude": 12.9801,
+        "longitude": 77.5962,
+        "description": "Located in the heart of Bengaluru (formerly Bangalore) near Cubbon Park and Vidhana Soudha. It represents the central general post office for the city."
+      },
+      "400001": {
+        "isValid": true,
+        "postalCode": "400001",
+        "country": "India",
+        "state": "Maharashtra",
+        "city": "Mumbai",
+        "district": "Mumbai G.P.O.",
+        "latitude": 18.9401,
+        "longitude": 72.8352,
+        "description": "The general post office zone of Mumbai, located in the historic Fort area near Chhatrapati Shivaji Maharaj Terminus (CSMT)."
+      },
+      "110001": {
+        "isValid": true,
+        "postalCode": "110001",
+        "country": "India",
+        "state": "Delhi",
+        "city": "New Delhi",
+        "district": "Connaught Place",
+        "latitude": 28.6304,
+        "longitude": 77.2177,
+        "description": "The central commercial district of Connaught Place in New Delhi, featuring colonial-era circular shopping avenues."
+      }
+    },
+    "united states": {
+      "90210": {
+        "isValid": true,
+        "postalCode": "90210",
+        "country": "United States",
+        "state": "California",
+        "city": "Beverly Hills",
+        "district": "Los Angeles County",
+        "latitude": 34.1030,
+        "longitude": -118.4105,
+        "description": "One of the most famous ZIP codes in the world, representing the affluent city of Beverly Hills, California, known for Rodeo Drive and celebrity estates."
+      },
+      "10001": {
+        "isValid": true,
+        "postalCode": "10001",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York City",
+        "district": "Manhattan",
+        "latitude": 40.7501,
+        "longitude": -73.9963,
+        "description": "Encompasses Midtown Manhattan, including the Empire State Building, Pennsylvania Station, and Madison Square Garden."
+      },
+      "33101": {
+        "isValid": true,
+        "postalCode": "33101",
+        "country": "United States",
+        "state": "Florida",
+        "city": "Miami",
+        "district": "Miami-Dade County",
+        "latitude": 25.7743,
+        "longitude": -80.1937,
+        "description": "Covers the central downtown region of Miami, Florida, acting as the main administrative financial center."
+      }
+    },
+    "canada": {
+      "K1A 0B1": {
+        "isValid": true,
+        "postalCode": "K1A 0B1",
+        "country": "Canada",
+        "state": "Ontario",
+        "city": "Ottawa",
+        "district": "Parliament Hill",
+        "latitude": 45.4248,
+        "longitude": -75.7001,
+        "description": "The dedicated postal code for Parliament Hill and the House of Commons in Canada's capital city, Ottawa."
+      },
+      "M5V 1J2": {
+        "isValid": true,
+        "postalCode": "M5V 1J2",
+        "country": "Canada",
+        "state": "Ontario",
+        "city": "Toronto",
+        "district": "Downtown Toronto / CN Tower",
+        "latitude": 43.6426,
+        "longitude": -79.3871,
+        "description": "Downtown Toronto harbor area, surrounding the CN Tower and Rogers Centre stadium."
+      }
+    },
+    "australia": {
+      "2000": {
+        "isValid": true,
+        "postalCode": "2000",
+        "country": "Australia",
+        "state": "New South Wales",
+        "city": "Sydney",
+        "district": "Sydney CBD",
+        "latitude": -33.8688,
+        "longitude": 151.2093,
+        "description": "The Central Business District of Sydney, containing Circular Quay, Darling Harbour, and nearby Opera House pathways."
+      },
+      "3000": {
+        "isValid": true,
+        "postalCode": "3000",
+        "country": "Australia",
+        "state": "Victoria",
+        "city": "Melbourne",
+        "district": "Melbourne CBD",
+        "latitude": -37.8136,
+        "longitude": 144.9631,
+        "description": "The cultural heart of Melbourne, featuring its grid layout, Flinders Street Station, and arts lanes."
+      }
+    },
+    "united kingdom": {
+      "SW1A 1AA": {
+        "isValid": true,
+        "postalCode": "SW1A 1AA",
+        "country": "United Kingdom",
+        "state": "England",
+        "city": "London",
+        "district": "Buckingham Palace",
+        "latitude": 51.5014,
+        "longitude": -0.1419,
+        "description": "The official postcode of Buckingham Palace, the London residence of the British monarch."
+      },
+      "EH1 1YT": {
+        "isValid": true,
+        "postalCode": "United Kingdom",
+        "country": "United Kingdom",
+        "state": "Scotland",
+        "city": "Edinburgh",
+        "district": "Royal Mile / Edinburgh Castle",
+        "latitude": 55.9486,
+        "longitude": -3.1999,
+        "description": "The historic Royal Mile sector, leading up to the ancient Edinburgh Castle perched on volcanic rock."
+      }
+    }
+  }
+}
